@@ -1,5 +1,5 @@
 {
-  "name": "to-json-schema",
+  "name": "@moyuyc/to-json-schema",
   "version": "1.0.0",
   "main": "index.js",
   "description": "Converts JSON to JSON schema.",
