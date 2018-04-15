@@ -7,7 +7,12 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["to-json-schema"],
+  "bin": {
+    "to-json-schema": "bin.js"
+  },
+  "keywords": [
+    "to-json-schema"
+  ],
   "license": "MIT",
   "repository": "imcuttle/to-json-schema",
   "jest": {
@@ -19,9 +24,17 @@
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
     },
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   },
   "devDependencies": {
+    "concat-stream": "^1.6.2",
     "jest": "^22.4.3"
   },
   "dependencies": {
