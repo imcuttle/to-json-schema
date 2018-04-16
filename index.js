@@ -169,6 +169,8 @@ function processArray(array, output, nested) {
     output.items.oneOf = oneOfList
   }
 
+  output.example = array
+
   return nested ? output.items : output
 }
 
@@ -221,6 +223,7 @@ function processObject(object, output, nested) {
 
     output.properties[key] = {}
     output.properties[key].type = type
+    output.properties[key].example = value
 
     if (format) {
       output.properties[key].format = format
