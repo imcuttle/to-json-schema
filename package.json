@@ -34,12 +34,12 @@
     ]
   },
   "devDependencies": {
-    "concat-stream": "^1.6.2",
-    "jest": "^22.4.3"
-  },
-  "dependencies": {
+    "jest": "^22.4.3",
     "@types/jest": "^22.2.3",
     "@types/node": "^9.6.5",
+  },
+  "dependencies": {
+    "concat-stream": "^1.6.2",
     "lodash.isequal": "^4.5.0",
     "type-of-is": "^3.5.1"
   }
